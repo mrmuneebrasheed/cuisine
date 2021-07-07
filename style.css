@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  /* font-family: 'Courgette', cursive;
+  font-family: 'Oswald', sans-serif; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+.articles {
+  height: 90vh;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+.courgette {
+  font-family: "Courgette", cursive;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+@media max-width(990px) {
+  .hidden {
+    display: none;
+  }
+}
+footer {
+  height: 40vh;
+}
