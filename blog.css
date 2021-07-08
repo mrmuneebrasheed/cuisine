@@ -1,0 +1,25 @@
+header {
+    font-family: 'Courgette', cursive;
+    font-family: 'Oswald', sans-serif;
+    background-image: url(img/articles/suzette/suzette-header.jpg);
+    background-size: cover;
+    background-position: center;
+    /* height: 75vh; */
+  }
+.transparent-black{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.courgette {
+    font-family: "Courgette", cursive;
+  }
+  .oswald {
+    font-family: "Oswald", sans-serif;
+  }
+  main p{
+      text-align: center;
+  }
+  .capital::first-letter{
+      margin-top: 0;
+      font-size: 300%;
+      color: gray;
+  }
